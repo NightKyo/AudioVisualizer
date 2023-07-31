@@ -3,6 +3,7 @@ var FFT;
 var reloaded = false;
 
 window.onload = () => {
+    console.log("Active");
     createCanvas(window.innerWidth, window.innerHeight - document.getElementById('nav-area').clientHeight);
     init();
     initUI();
